@@ -1,0 +1,11 @@
+Resources on Motor Control Algorithms
+Familiar with tools that can be useful by taking Onramp courses: 
+https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
+https://matlabacademy.mathworks.com/details/control-design-onramp-with-simulink/controls
+Look into the PID tuning part. This is considered the “classic method”. 
+Deep dive on some specific topics from this Discovery page: 
+https://www.mathworks.com/discovery/motor-control.html
+Resources on Machine Learning in MATLAB
+https://matlabacademy.mathworks.com/details/machine-learning-onramp/machinelearning
+
+
