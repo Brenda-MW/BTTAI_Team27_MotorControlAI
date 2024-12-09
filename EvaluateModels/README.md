@@ -33,6 +33,8 @@ It was a deep LSTM model with five LSTM layers, each with 100 hidden units and n
 From the confusion matrix, we can see that the model achieved a precision score of 60% and a recall score of 90%. This means that of the motors that the model predicted to be broken, its predictions were correct just over half the time. Additionally, of the rotors that were actually broken, it correctly predicted 90% of them. Therefore, while the validation accuracy was somewhat low, LSTM had a high recall score which is important in our business context where we are trying to prioritize predictive maintenance and identifying truly broken rotors which can be expensive to repair and potentially dangerous. Additionally, when it comes to scalability LSTMs can be very well-suited for time-series data and may be more appropriate when there is more time-series data available, albeit at the cost of computation intensity. 
 <img width="327" alt="Screenshot 2024-12-06 at 2 53 17 AM" src="https://github.com/user-attachments/assets/4fe98041-81d9-4409-b562-64098d58c72e">
 
+---
+
 <h2>CNN Modeling</h2>
 
 ```markdown
@@ -78,6 +80,12 @@ opts = trainingOptions("adam", ...
 ```
 
 ## Results
+
+![MATLAB Training and testing Loss FOR MODEL 1](https://github.com/Brenda-MW/BTTAI_Team27_MotorControlAI/blob/main/EvaluateModels/CNN_DeepLearning/Control-V-2.png)
+
+
+![MATLAB Confusion Matrix FOR MODEL 1](https://github.com/Brenda-MW/BTTAI_Team27_MotorControlAI/blob/main/EvaluateModels/CNN_DeepLearning/Control-V.png)
+
 - **Training Accuracy**: 53.125%
 - **Validation Accuracy**: 50%
 
@@ -132,6 +140,11 @@ opts = trainingOptions("adam", ...
 ```
 
 ## Results
+
+![MATLAB Training and testing Loss FOR MODEL 2](https://github.com/Brenda-MW/BTTAI_Team27_MotorControlAI/blob/main/EvaluateModels/CNN_DeepLearning/Control-V-3.png)
+
+![MATLAB Confusion Matrix FOR MODEL 2](https://github.com/Brenda-MW/BTTAI_Team27_MotorControlAI/blob/main/EvaluateModels/CNN_DeepLearning/Control-V-4.png)
+
 - **Training Accuracy**: 96.875%
 - **Validation Accuracy**: 50%
 
