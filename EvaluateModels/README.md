@@ -171,5 +171,5 @@ Model 2’s overfitting highlighted the need for techniques like:
 
 ---
 
-# Conclusion
+# Conclusion for CNN Modeling
 Choosing the right model architecture and input representation is crucial for effectively handling complex data like audio signals. While Model 1 lacked the capacity to learn meaningful patterns, Model 2 leveraged convolutional layers to significantly improve training performance. Addressing overfitting remains the key challenge moving forward, requiring strategies like data augmentation and improved regularization. Overall, this project emphasized the importance of aligning model design with the underlying data structure.
